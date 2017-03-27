@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node sv:name="bootstrap-carousel-demo" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>mgnl:page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hideInNav" sv:type="Boolean">
+        <sv:value>false</sv:value>
+    </sv:property>
+    <sv:property sv:name="mgnl:template" sv:type="String">
+        <sv:value>mtk:pages/basic</sv:value>
+    </sv:property>
+    <sv:property sv:name="title" sv:type="String">
+        <sv:value>Bootstrap Carousel Demo</sv:value>
+    </sv:property>
+    <sv:node sv:name="main">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+        </sv:property>
+        <sv:node sv:name="0">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                <sv:value>mgnl:component</sv:value>
+            </sv:property>
+            <sv:property sv:name="id" sv:type="String">
+                <sv:value>lalala</sv:value>
+            </sv:property>
+            <sv:property sv:name="mgnl:template" sv:type="String">
+                <sv:value>bootstrap-carousel-magnolia:components/bootstrapCarousel</sv:value>
+            </sv:property>
+            <sv:node sv:name="slides0">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="description" sv:type="String">
+                    <sv:value>This is a description of the first slide</sv:value>
+                </sv:property>
+                <sv:property sv:name="imageAlt" sv:type="String">
+                    <sv:value>First mountain</sv:value>
+                </sv:property>
+                <sv:property sv:name="imageId" sv:type="String">
+                    <sv:value>jcr:4d7c1e11-4ce7-41a0-b669-3b6c9397ab76</sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Summer landscape</sv:value>
+                </sv:property>
+            </sv:node>
+            <sv:node sv:name="slides1">
+                <sv:property sv:name="jcr:primaryType" sv:type="Name">
+                    <sv:value>mgnl:contentNode</sv:value>
+                </sv:property>
+                <sv:property sv:name="description" sv:type="String">
+                    <sv:value>This is a description of the second slide</sv:value>
+                </sv:property>
+                <sv:property sv:name="imageAlt" sv:type="String">
+                    <sv:value>Second mountain</sv:value>
+                </sv:property>
+                <sv:property sv:name="imageId" sv:type="String">
+                    <sv:value>jcr:a27c9a08-122d-4403-b7bb-09814e608442</sv:value>
+                </sv:property>
+                <sv:property sv:name="title" sv:type="String">
+                    <sv:value>Winter landscape</sv:value>
+                </sv:property>
+            </sv:node>
+        </sv:node>
+    </sv:node>
+    <sv:node sv:name="footer">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>mgnl:area</sv:value>
+        </sv:property>
+    </sv:node>
+</sv:node>

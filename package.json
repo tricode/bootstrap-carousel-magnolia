@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-carousel-magnolia",
+  "version": "1.0.0",
+  "description": "A Bootstrap carousel component for Magnolia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tricode/bootstrap-carousel-magnolia.git"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia-component"
+  ],
+  "author": "Martijn Kooijman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tricode/bootstrap-carousel-magnolia/issues"
+  },
+  "homepage": "https://github.com/tricode/bootstrap-carousel-magnolia#readme"
+}

@@ -1,0 +1,37 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+        - name: id
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: slides
+          transformerClass: info.magnolia.ui.form.field.transformer.multi.DelegatingMultiValueFieldTransformer
+          class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+          field:
+            transformerClass: info.magnolia.ui.form.field.transformer.composite.DelegatingCompositeFieldTransformer
+            class: info.magnolia.ui.form.field.definition.CompositeFieldDefinition
+            layout: vertical
+            fields:
+              - name: imageId
+                required: true
+                targetWorkspace: dam
+                appName: assets
+                class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+                identifierToPathConverter:
+                  class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+                contentPreviewDefinition:
+                  contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+              - name: imageAlt
+                i18n: true
+                class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+              - name: title
+                i18n: true
+                class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+              - name: description
+                i18n: true
+                class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

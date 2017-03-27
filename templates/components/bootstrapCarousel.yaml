@@ -1,0 +1,3 @@
+dialog: bootstrap-carousel-magnolia:components/bootstrapCarousel
+renderType: freemarker
+templateScript: /bootstrap-carousel-magnolia/templates/components/bootstrapCarousel.ftl
