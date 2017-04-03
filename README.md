@@ -22,13 +22,13 @@ The configuration dialog provides four fields for each slide:
 
 Make the component available to authors, and include the files in `webresources` on your pages using standard magnolia techniques.
 
-(To make this component available on the mtk basic page, you could use the decoration included in `_dev/decorations`.)
+(To make this component available on the mtk basic page, you could use the decoration included in <https://github.com/tricode/bootstrap-carousel-magnolia>`/_dev/decorations`.)
 
 This component makes use of the Bootstrap library (<http://getbootstrap.com>), both CSS and JS. This Bootstrap component uses jQuery, so don't forget to add that as a dependency too.
 
 ## Demo
 
-To see a page demonstrating this component, open the Pages app in Magnolia AdminCentral and import the file in `_dev/demos`. (Import it directly at the root of the tree to see an example of the included css styling.)
+To see a page demonstrating this component, open the Pages app in Magnolia AdminCentral and import the file in <https://github.com/tricode/bootstrap-carousel-magnolia>`/_dev/demos`. (Import it directly at the root of the tree to see an example of the included css styling.)
 
 ## Information on Magnolia CMS
 This directory is a Magnolia 'light module'.
